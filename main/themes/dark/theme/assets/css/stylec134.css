@@ -1,0 +1,2343 @@
+@import url("../../../../../../css2");
+@font-face {
+    font-family: "Minecraftia";
+    src: url("../font/minecraft-font.ttf");
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url("../font/montserrat.ttf");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    -webkit-overflow-scrolling: touch;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.box button {
+    text-shadow: 2px 2px 1px #000;
+    color: #fff;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 10px 30px;
+    background: #34aa2f;
+    border-top: 5px solid #51bb4d;
+    border-left: 5px solid #51bb4d;
+    border-bottom: 5px solid #2b8827;
+    border-right: 5px solid #2b8827;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.navbar dark {
+	background-color:rgba(28,28,28,0.8);
+}
+
+.nav-brand-text {
+    transition: .25s ease-in-out;
+}
+
+.nav-brand-text:hover {
+    transform: scale(1.08);
+}
+
+.nav-link {
+    transition: .20s ease-in-out;
+}
+
+.nav-link:hover {
+    transform: translateY(-1px);
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+
+#skip-nav-link {
+    position: absolute;
+    color: #fff;
+    background-color:#fc4d3b;
+    padding: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transform: translateY(-120%);
+    transition: .30s ease-in-out;
+    z-index: 99998;
+}
+
+#skip-nav-link:focus {
+    transform: translateY(0);
+}
+
+li {
+	display: inline-block;
+    cursor: pointer;
+    margin: 0 10px;
+    padding: 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #c1c8cb;
+    letter-spacing: 2px;
+    font-weight: 500;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+*:focus {
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+@media only screen and (max-width: 1080px) {
+    a.landingwidth {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+button {
+    cursor: pointer;
+    font-family: "Minecraftia";
+}
+
+button.purple {
+    background: #a751be;
+    border-top: 5px solid #ca6ce4;
+    border-left: 5px solid #ca6ce4;
+    border-bottom: 5px solid #9143a7;
+    border-right: 5px solid #9143a7;
+}
+
+button.green {
+    background: #34aa2f;
+    border-top: 5px solid #51bb4d;
+    border-left: 5px solid #51bb4d;
+    border-bottom: 5px solid #2b8827;
+    border-right: 5px solid #2b8827;
+}
+
+body,
+html {
+    height: 100%;
+    background: #181719;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 3px;
+}
+
+::-webkit-scrollbar-track {
+    background: #3f3e41;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #51bb4d;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #3c8a39;
+}
+
+.preloader {
+	background: #1c1c1c;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1000;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.preloader .rect {
+	position: absolute;
+    height: 128px;
+    width: 128px;
+    background-image: url('../img/preloader.gif');
+	background-size: cover;
+	background-position: center;
+}
+
+.preloader .text {
+	padding-top: 12rem;
+	position: relative;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 24px;
+	color: #fff;
+}
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.modal-wrapper {
+    height: 100%;
+    width: 100%;
+    z-index: 999;
+    position: absolute;
+    background: #1c1c1c57;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+}
+
+.modal-wrapper .modal {
+    position: relative;
+    width: 500px;
+    background: #1c1c1c;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 500px) {
+    .modal-wrapper .modal {
+        width: 287px;
+        height: auto;
+    }
+}
+
+.modal-wrapper .modal .counter {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+.modal-wrapper .modal .counter span {
+    display: block;
+    font-size: 20px;
+    font-family: "minecraftia";
+    color: #da5757;
+}
+
+.modal-wrapper .modal .img {
+    width: 500px;
+    height: 500px;
+    background: url("../img/servers/teliakciok.png") center center/contain no-repeat;
+}
+
+@media only screen and (max-width: 500px) {
+    .modal-wrapper .modal .img {
+        width: 287px;
+        height: 287px;
+    }
+}
+
+.modal-wrapper .modal .modal-close {
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    overflow: hidden;
+    height: 35px;
+    width: 35px;
+    background: url("../img/servers/close.png") center center/contain no-repeat;
+}
+
+.modal-wrapper .modal .modal-close:hover {
+    opacity: 0.9;
+}
+
+@media only screen and (max-width: 500px) {
+    .modal-wrapper .modal .modal-close {
+        top: 5px;
+        right: 5px;
+        height: 30px;
+        width: 30px;
+    }
+}
+
+.close {
+    position: fixed;
+    display: none;
+    height: 50px;
+    width: 100%;
+    z-index: 999;
+}
+
+@media only screen and (max-width: 1080px) {
+    .close {
+        display: block;
+    }
+}
+
+.close .hamburger {
+    position: absolute;
+    left: 20px;
+    top: 30px;
+    cursor: pointer;
+}
+
+.close .hamburger span,
+.close .hamburger span:before,
+.close .hamburger span:after {
+    cursor: pointer;
+    border-radius: 1px;
+    height: 2px;
+    width: 25px;
+    position: absolute;
+    display: block;
+    background: #bfbfc0;
+    -webkit-transition: 0.5s cubic-bezier(0.62, 0.17, 0.06, 0.77);
+    transition: 0.5s cubic-bezier(0.62, 0.17, 0.06, 0.77);
+    content: "";
+}
+
+.close .hamburger span:before {
+    top: -8px;
+}
+
+.close .hamburger span:after {
+    bottom: -8px;
+}
+
+.close .hamburger.active span {
+    background-color: transparent;
+}
+
+.close .hamburger.active span:after {
+    position: absolute;
+    margin-bottom: 10px;
+}
+
+.close .hamburger.active span:before {
+    margin-top: 6px;
+}
+
+.close .hamburger.active span:before {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.close .hamburger.active span:after {
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.mobile-section {
+    display: none;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 1080px) {
+    .mobile-section {
+        display: block;
+    }
+}
+
+.mobile-section.dragon {
+    position: relative;
+    z-index: 11;
+    height: 300px;
+    width: 100%;
+    background: url("../img/servers/dragon.png") center center no-repeat;
+    background-size: contain;
+}
+
+.mobile-section.pet {
+    position: relative;
+    z-index: 11;
+    height: 208px;
+    width: 298px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    background: url("../img/servers/pet.png") center center no-repeat;
+    background-size: contain;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 15;
+    padding: 10px 8%;
+    z-index: 998;
+    overflow-x: hidden;
+}
+
+@media only screen and (max-width: 1280px) {
+    header {
+        padding: 10px 3%;
+    }
+}
+
+header.darken {
+    background: #1c1c1c !important;
+}
+
+@media only screen and (max-width: 1080px) {
+    header {
+        padding: 0;
+        background: #1c1c1c;
+        height: 0;
+    }
+    header.active {
+        height: auto;
+    }
+}
+
+header .wrapper {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 10px auto;
+}
+
+@media only screen and (max-width: 1080px) {
+    header .wrapper {
+        -webkit-box-orient: vertical !important;
+        -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+        flex-direction: column !important;
+        text-align: center;
+        padding: 10px 0;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+}
+
+header .wrapper button {
+    text-shadow: 2px 2px 1px #000;
+    color: #fff;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 6px 32px;
+    background: #34aa2f;
+    border-top: 5px solid #51bb4d;
+    border-left: 5px solid #51bb4d;
+    border-bottom: 5px solid #2b8827;
+    border-right: 5px solid #2b8827;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+@media only screen and (max-width: 1500px) {
+    header .wrapper button {
+        font-size: 9px;
+    }
+}
+
+header .wrapper button:hover {
+    background: #202020;
+    border-top: 5px solid #131313;
+    border-left: 5px solid #131313;
+    border-bottom: 5px solid #292929;
+    border-right: 5px solid #292929;
+}
+
+header .wrapper nav {
+    width: 100%;
+}
+
+header .wrapper nav .left {
+    float: left;
+}
+
+@media only screen and (max-width: 1080px) {
+    header .wrapper nav .left {
+        float: none !important;
+    }
+}
+
+header .wrapper nav .right {
+    float: right;
+}
+
+@media only screen and (max-width: 1080px) {
+    header .wrapper nav .right {
+        float: none !important;
+    }
+}
+
+header .wrapper nav ion-icon {
+    font-size: 28px;
+}
+
+@media only screen and (max-width: 1500px) {
+    header .wrapper nav ion-icon {
+        font-size: 24px;
+        margin-top: -3px;
+    }
+}
+
+header .wrapper nav li {
+    display: inline-block;
+    cursor: pointer;
+    margin: 0 10px;
+    padding: 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #c1c8cb;
+    letter-spacing: 2px;
+    font-weight: 500;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+	align-items: center;
+	justify-content: center;
+}
+
+header .wrapper nav li img {
+	max-height: 25px;
+    max-width: 25px;
+    float: left;
+    position: relative;
+    margin-top: -5px;
+    margin-right: 10px;
+}
+
+@media only screen and (max-width: 1080px) {
+    header .wrapper nav li {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    header .wrapper nav li.social {
+        display: inline-block !important;
+        margin-top: 30px;
+    }
+}
+
+header .wrapper nav li.title {
+    margin-right: 75px !important;
+    color: #111314;
+    background: #c1c8cb;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+@media only screen and (max-width: 1500px) {
+    header .wrapper nav li.title {
+        margin-right: 40px !important;
+    }
+}
+
+header .wrapper nav li.title:hover {
+    color: #303030;
+}
+
+@media only screen and (max-width: 1080px) {
+    header .wrapper nav li.title {
+        margin: 0 auto !important;
+        margin-bottom: 30px !important;
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    header .wrapper nav li {
+        font-size: 9px;
+    }
+}
+
+header .wrapper nav li:hover {
+    color: #51bb4d;
+}
+
+.section-wrapper {
+    position: relative;
+    min-height: 100%;
+    height: 100%;
+    overflow: visible;
+}
+
+.gradient {
+    position: absolute;
+    opacity: 0.1;
+}
+
+.gradient.left {
+    height: 3200px;
+    width: 1500px;
+    top: -800px;
+    background: url("assets/img/servers/orange.png") center center no-repeat;
+    background-size: contain;
+}
+
+@media only screen and (max-width: 1500px) {
+    .gradient.left {
+        width: 100%;
+    }
+}
+
+.gradient.right {
+    right: 0;
+    height: 3200px;
+    width: 1500px;
+    -webkit-transform: scale(-1);
+    transform: scale(-1);
+    background: url("assets/img/servers/blue.png") center center no-repeat;
+    background-size: contain;
+}
+
+.background {
+    position: absolute;
+    height: 200%;
+    width: 100%;
+    opacity: 0.05;
+}
+
+.background.stone {
+    background: url("assets/img/servers/stonebrick.png") center center no-repeat;
+    background-size: cover;
+}
+
+.update {
+    position: absolute;
+    top: 11px;
+    right: -8px;
+    -webkit-transform: rotate(16deg);
+    transform: rotate(16deg);
+    font-family: "Minecraftia";
+    color: #ffb6fc;
+    font-size: 38px;
+    -webkit-animation: rainbowText 5s infinite;
+    animation: rainbowText 5s infinite;
+    text-shadow: 4px 4px 1px #000;
+}
+
+@media only screen and (max-width: 784px) {
+    .update {
+        font-size: 17px;
+    }
+}
+
+@-webkit-keyframes rainbowText {
+    0% {
+        color: #ffa7f7;
+    }
+    10% {
+        color: #ffa7a7;
+    }
+    50% {
+        color: #a7eeff;
+    }
+    75% {
+        color: #c0ffa7;
+    }
+    100% {
+        color: #ffa7f7;
+    }
+}
+
+@keyframes rainbowText {
+    0% {
+        color: #ffa7f7;
+    }
+    10% {
+        color: #ffa7a7;
+    }
+    50% {
+        color: #a7eeff;
+    }
+    75% {
+        color: #c0ffa7;
+    }
+    100% {
+        color: #ffa7f7;
+    }
+}
+
+.section {
+    width: 100vw;
+    padding: 3rem;
+    padding-bottom: 3rem;
+    background-color: #222;
+    color: var(--light);
+    transition: .25s ease-in-out;
+    word-wrap: break-word;
+}
+
+section.divider {
+	padding: 1rem 0rem 0rem;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+	flex-direction: column;
+}
+
+section.divider h3 {
+	font-family: Minecraftia;
+	color: #319E4A;
+}
+
+section.divider .container {
+	--spacing: 0.375rem;
+	vertical-align: top;
+    position: relative;
+    max-width: 100%;
+    border-radius: inherit;
+    text-align: center;
+}
+
+section.divider hr {
+	background-color: #319E4A;
+	color: #319E4A;
+	border: none;
+	width: 12rem;
+	height: 5px;
+	margin-top: var(--spacing);
+	position: relative;
+}
+
+
+
+
+section.servers {
+    text-align: center;
+}
+
+section.servers > h1 {
+    font-size: 22px;
+    font-family: "Minecraftia";
+    text-align: center;
+    margin-bottom: 70px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: #c1c8cb;
+}
+
+section.servers .row-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 1300px;
+    margin: 50px auto;
+}
+
+@media only screen and (max-width: 1280px) {
+    section.servers .row-wrapper {
+        width: 1000px !important;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    section.servers .row-wrapper {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        margin: auto;
+        width: 100% !important;
+    }
+}
+
+section.servers .card-wrapper {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0 50px;
+}
+
+@media only screen and (max-width: 1080px) {
+    section.servers .card-wrapper {
+        width: 85% !important;
+    }
+}
+
+section.servers .card-wrapper:hover .knight {
+    margin-top: 233px;
+    margin-right: 720px;
+}
+
+@media only screen and (max-width: 1280px) {
+    section.servers .card-wrapper:hover .knight {
+        margin-top: 311px;
+        margin-right: 493px;
+    }
+}
+
+section.servers .card-wrapper:hover .wizard {
+    margin-top: 71px;
+    margin-left: 978px;
+}
+
+@media only screen and (max-width: 1280px) {
+    section.servers .card-wrapper:hover .wizard {
+        margin-top: 150px;
+        margin-right: 295px;
+    }
+}
+
+section.servers .card-wrapper:hover .fox {
+    margin-top: 470px;
+    margin-right: 5px;
+}
+
+section.servers .card-wrapper:hover .phantom {
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+section.servers .card-wrapper .knight {
+    position: absolute;
+    z-index: 11;
+    height: 516px;
+    width: 548px;
+    margin-top: 268px;
+    margin-right: 672px;
+    background: url("../img/servers/knight.png") center center no-repeat;
+    background-size: contain;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+@media only screen and (max-width: 1280px) {
+    section.servers .card-wrapper .knight {
+        height: 398px;
+        width: 348px;
+        margin-top: 350px;
+        margin-right: 486px;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    section.servers .card-wrapper .knight {
+        display: none;
+    }
+}
+
+section.servers .card-wrapper .wizard {
+    position: absolute;
+    z-index: 11;
+    height: 598px;
+    width: 548px;
+    margin-top: 167px;
+    margin-left: 986px;
+    background: url("../img/servers/wizard.png") center center no-repeat;
+    background-size: contain;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+@media only screen and (max-width: 1280px) {
+    section.servers .card-wrapper .wizard {
+        height: 398px;
+        width: 348px;
+        margin-top: 226px;
+        margin-right: 295px;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    section.servers .card-wrapper .wizard {
+        display: none;
+    }
+}
+
+section.servers .card-wrapper .fox {
+    position: absolute;
+    z-index: 11;
+    height: 208px;
+    width: 298px;
+    margin-top: 497px;
+    margin-left: 496px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    background: url("../img/servers/fox.png") center center no-repeat;
+    background-size: contain;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+@media only screen and (max-width: 1080px) {
+    section.servers .card-wrapper .fox {
+        display: none;
+    }
+}
+
+section.servers .card-wrapper .phantom {
+    position: absolute;
+    z-index: 11;
+    height: 124px;
+    width: 441px;
+    margin-top: 377px;
+    margin-left: -860px;
+    background: url("../img/servers/phantom.png") center center no-repeat;
+    background-size: contain;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+@media only screen and (max-width: 1080px) {
+    section.servers .card-wrapper .phantom {
+        display: none;
+    }
+}
+
+section.servers .card-wrapper .card {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    z-index: 10;
+    text-align: center;
+    border-radius: 15px;
+    height: 483px;
+}
+
+section.servers .card-wrapper .card.skypvp {
+    background: url("../products/enderman_bg.png") center center no-repeat;
+    background-size: cover;
+}
+
+section.servers .card-wrapper .card.survival {
+    background: url("../products/iron golem_bg.png") center center no-repeat;
+    background-size: cover;
+}
+
+section.servers .card-wrapper .card.skyblock {
+    background: url("../img/servers/stone.png") center center no-repeat;
+    background-size: cover;
+}
+
+section.servers .card-wrapper .card.moorpg {
+    background: url("../img/servers/obsidian.png") center center no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 1280px) {
+    section.servers .card-wrapper .card {
+        padding: 0 20px;
+        min-height: 350px;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    section.servers .card-wrapper .card {
+        width: 100%;
+        margin: 40px auto;
+        height: auto;
+        padding: 50px 0;
+    }
+}
+
+section.servers .card-wrapper .card h1 {
+    font-size: 20px;
+    font-family: "Minecraftia";
+    text-align: center;
+    margin-bottom: 70px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #c1c8cb;
+}
+
+@media only screen and (max-width: 1500px) {
+    section.servers .card-wrapper .card h1 {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    section.servers .card-wrapper .card h1 {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    section.servers .card-wrapper .card h1 {
+        font-size: 12px;
+    }
+}
+
+section.servers .card-wrapper .card p,
+section.servers .card-wrapper .card b {
+    font-size: 13px;
+    width: 90%;
+    margin: 0 auto;
+    font-family: "Minecraftia";
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #c1c8cb;
+}
+
+section.servers .card-wrapper .card p.long,
+section.servers .card-wrapper .card b.long {
+    width: 50%;
+}
+
+@media only screen and (max-width: 1080px) {
+    section.servers .card-wrapper .card p.long,
+    section.servers .card-wrapper .card b.long {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    section.servers .card-wrapper .card p,
+    section.servers .card-wrapper .card b {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    section.servers .card-wrapper .card p,
+    section.servers .card-wrapper .card b {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    section.servers .card-wrapper .card p,
+    section.servers .card-wrapper .card b {
+        font-size: 12px;
+    }
+}
+
+section.last {
+	width: 100%;
+    background-color: transparent;
+	padding: 25px 100px 50px;
+	display: flex;
+	justify-content: center;
+}
+
+section.last .card {
+	width: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+section.last .card .top {
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+}
+
+section.last .card .top .head img {
+	border-radius: 10px;
+}
+
+section.last .card .top .item {
+	width: 45px;
+    height: 38px;
+    margin: -25px 40px 0px auto;
+}
+
+section.last .card .top .item {
+  position: relative;
+  display: inline-block;
+}
+
+section.last .card .top .item img {
+	width: auto;
+    height: 38px;
+}
+
+section.last .card .body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section.last .card .body .user {
+    font-family: Minecraftia;
+	color: #fff;
+}
+
+section.last .card .body .item {
+    font-family: Minecraftia;
+	font-size: 8px;
+	color: #fff;
+}
+
+
+section.guilds {
+	--padding-horizontal: 2rem;
+    --padding-vertical: 2.25rem;
+    width: 100%;
+    background-color: transparent;
+	padding: 25px 100px 50px;
+}
+
+section.guilds .playercard {
+    max-width: 100%;
+    margin-right: 0;
+}
+
+section.guilds .playercard {
+    box-shadow: 2px 2px 13px rgb(0 0 0 / 15%);
+    border: 2px solid rgba(0, 0, 0, 0);
+    padding: 0.5em 1em;
+    background: rgba(0,0,0,0.2);
+    color: hsla(287, 15%, 72%, 0.74);
+}
+
+section.guilds .playercard img {
+    image-rendering: pixelated;
+}
+
+section.guilds .playercard img, .icon {
+    width: 24px;
+    height: auto;
+    vertical-align: middle;
+}
+
+section.guilds .playercard table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+section.guilds tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+section.guilds tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+	font-family: Minecraftia;
+}
+
+section.guilds .playercard th {
+	color: #c1c8cb;
+    padding-bottom: 10px;
+	border-bottom: solid 3px #c1c8cb;;
+	font-family: Montserrat;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+section.guilds .playercard td {
+    padding: 0.1em 0.5em 0.5em 0.1em;
+	font-size: 14px;
+	align-items: center;
+	text-align: center;
+	font-family: Minecraftia;
+}
+
+section.guilds .playercard td a{
+    color: unset;
+	font-family: Minecraftia;
+}
+
+section.guilds .palyercard td .number {
+    align-items: flex-end;
+    text-align: right;
+    color: hsla(286, 74%, 79%, 0.71);
+}
+
+section.guilds .palyercard td .flag {
+    align-items: flex-start;
+    text-align: left;
+    color: hsla(286, 74%, 79%, 0.71);
+}
+
+section.guilds .playercard small, .playercard span.small {
+    opacity: 0.3;
+    font: 11px verdana;
+}
+
+section.landing {
+   	background-image: linear-gradient(to bottom, rgba(0,0,0,0),rgba(28,28,28,1)), url('../img/bg-landing.png');
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+	padding-top: 5rem;
+}
+
+@media only screen and (max-width: 1080px) {
+    section.landing {
+        margin-bottom: 50px;
+    }
+}
+
+section.landing .logo {
+    height: 300px;
+    width: 300px;
+    background: url("../img/logonobg.png") center center no-repeat;
+    background-size: contain;
+}
+
+@media only screen and (max-width: 1080px) {
+    section.landing .logo {
+        height: 100px;
+        width: 100px;
+    }
+}
+
+section.landing a {
+    z-index: 997;
+}
+
+section.landing > span {
+    font-size: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: #c1c8cb;
+}
+
+@media only screen and (max-width: 1280px) {
+    section.landing > span {
+        font-size: 18px;
+    }
+}
+
+section.landing > h1 {
+    font-size: 40px;
+    z-index: 950;
+    margin: 20px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: #c1c8cb;
+}
+
+@media only screen and (max-width: 1280px) {
+    section.landing > h1 {
+        font-size: 18px;
+    }
+}
+
+section.landing > h2 {
+    font-size: 15px;
+    width: 80%;
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 70px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #c1c8cb;
+    width: 400px;
+}
+
+@media only screen and (max-width: 1280px) {
+    section.landing > h2 {
+        font-size: 13px;
+        width: 85%;
+    }
+}
+
+section.landing .counter-wrapper {
+    overflow: hidden;
+    width: 450px;
+    height: auto;
+}
+
+@media only screen and (max-width: 1080px) {
+    section.landing .counter-wrapper {
+        width: 85%;
+    }
+}
+
+section.landing .counter-wrapper span {
+    display: block;
+    font-family: "minecraftia";
+    color: #d6d6d6;
+    font-size: 13px;
+    padding-bottom: 8px;
+}
+
+section.landing .counter-wrapper .playercount {
+    float: left;
+}
+
+section.landing .counter-wrapper .percent {
+    float: right;
+}
+
+section.landing .counter-wrapper .line-wrapper {
+    overflow: hidden;
+    display: block;
+    background: #33aa2f5d;
+    margin: 0 auto;
+    width: 100%;
+    height: 15px;
+    border-top: 5px solid #51bb4d;
+    border-left: 5px solid #51bb4d;
+    border-bottom: 5px solid #2b8827;
+    border-right: 5px solid #2b8827;
+}
+
+section.landing .counter-wrapper .line-wrapper .line {
+    width: 75%;
+    height: 100%;
+    background: #33aa2f;
+}
+
+section.landing button {
+    z-index: 20;
+    text-shadow: 2px 2px 1px #000;
+    color: #fff;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin: 0 auto;
+    margin-top: 60px;
+    font-size: 14px;
+    padding: 15px 30px;
+    background: #34aa2f;
+    border-top: 5px solid #51bb4d;
+    border-left: 5px solid #51bb4d;
+    border-bottom: 5px solid #2b8827;
+    border-right: 5px solid #2b8827;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+@media only screen and (max-width: 1280px) {
+    section.landing button {
+        padding: 12px 10%;
+    }
+}
+
+section.landing button:hover {
+    background: #202020;
+    border-top: 5px solid #131313;
+    border-left: 5px solid #131313;
+    border-bottom: 5px solid #292929;
+    border-right: 5px solid #292929;
+}
+
+section.about {
+    position: relative;
+    height: auto;
+    margin-bottom: 350px;
+    overflow: visible;
+}
+
+@media only screen and (max-width: 1080px) {
+    section.about {
+        margin-bottom: 100px;
+    }
+}
+
+section.about .dragon {
+    position: absolute;
+    z-index: 11;
+    height: 700px;
+    width: 700px;
+    margin-left: 885px;
+    margin-top: 400px;
+    background: url("../img/servers/dragon.png") center center no-repeat;
+    background-size: contain;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+@media only screen and (max-width: 1080px) {
+    section.about .dragon {
+        display: none;
+    }
+}
+
+section.about .ender-effect {
+    position: absolute;
+    z-index: 9;
+    height: 854px;
+    width: 1510px;
+    background: url("../img/servers/end-effect.png") center center no-repeat;
+    background-size: contain;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+@media only screen and (max-width: 1080px) {
+    section.about .ender-effect {
+        display: none;
+    }
+}
+
+section.about .row-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 1080px) {
+    section.about .row-wrapper {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        margin: auto;
+        width: 100% !important;
+    }
+}
+
+section.about .card-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 1000px;
+    margin: 0 auto;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+@media only screen and (max-width: 1280px) {
+    section.about .card-wrapper {
+        width: 700px !important;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    section.about .card-wrapper {
+        width: 90% !important;
+    }
+}
+
+section.about .card-wrapper:hover .ender-effect {
+    margin-top: 15px;
+}
+
+section.about .card-wrapper:hover .dragon {
+    margin-top: 350px;
+}
+
+section.about .card-wrapper .card {
+    position: relative;
+    margin: 0 auto;
+    z-index: 10;
+    height: auto;
+    background: url("../img/servers/end.png") center center no-repeat;
+    background-size: cover;
+    text-align: center;
+    border-radius: 10px;
+    padding: 60px;
+}
+
+@media only screen and (max-width: 1080px) {
+    section.about .card-wrapper .card {
+        padding: 60px 20px;
+    }
+}
+
+section.about .card-wrapper .card h1 {
+    font-size: 20px;
+    font-family: "Minecraftia";
+    text-align: center;
+    margin-bottom: 70px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #c1c8cb;
+}
+
+@media only screen and (max-width: 1080px) {
+    section.about .card-wrapper .card h1 {
+        font-size: 13px;
+    }
+}
+
+section.about .card-wrapper .card p,
+section.about .card-wrapper .card b {
+    font-size: 15px;
+    width: 500px;
+    margin: 0 auto;
+    font-family: "Minecraftia";
+    text-align: center;
+    margin-bottom: 70px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #c1c8cb;
+}
+
+@media only screen and (max-width: 1080px) {
+    section.about .card-wrapper .card p,
+    section.about .card-wrapper .card b {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    section.about .card-wrapper .card p,
+    section.about .card-wrapper .card b {
+        font-size: 10px;
+    }
+}
+
+section.about .card-wrapper .card p button,
+section.about .card-wrapper .card b button {
+    text-shadow: 2px 2px 1px #000;
+    color: #fff;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-top: 30px;
+    padding: 10px 30px;
+    z-index: 15;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+@media only screen and (max-width: 1080px) {
+    section.about .card-wrapper .card p button,
+    section.about .card-wrapper .card b button {
+        padding: 5px 5px;
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    section.about .card-wrapper .card p button,
+    section.about .card-wrapper .card b button {
+        font-size: 8px;
+        letter-spacing: 2px;
+    }
+}
+
+section.about .card-wrapper .card p button:hover,
+section.about .card-wrapper .card b button:hover {
+    background: #202020;
+    border-top: 5px solid #131313;
+    border-left: 5px solid #131313;
+    border-bottom: 5px solid #292929;
+    border-right: 5px solid #292929;
+}
+
+section.blog .blogs .posts .blog-tag > update{
+	color: rgb(245, 183, 43);
+}
+
+section.blog .blogs .posts .blog-tag > misc{
+	color: rgb(255, 134, 218);
+}
+
+section.blog .blogs .posts .blog-tag > event{
+	color: rgb(67, 204, 218);
+}
+
+section.creators {
+    text-align: center;
+}
+
+section.creators > h1 {
+    font-size: 22px;
+    font-family: "Minecraftia";
+    text-align: center;
+    margin-bottom: 70px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: #c1c8cb;
+}
+
+section.creators img {
+    border-radius: 50%;
+    height: 96px;
+    width: 96px;
+}
+
+section.creators .row-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 1300px;
+    margin: 50px auto;
+}
+
+@media only screen and (max-width: 1280px) {
+    section.creators .row-wrapper {
+        width: 1000px !important;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    section.creators .row-wrapper {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        margin: auto;
+        width: 100% !important;
+    }
+}
+
+section.creators .card-wrapper {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0 50px;
+}
+
+@media only screen and (max-width: 1080px) {
+    section.creators .card-wrapper {
+        width: 85% !important;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    section.creators .card-wrapper {
+        margin: 0 25px;
+    }
+}
+
+section.creators .card-wrapper .card {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 40px;
+    z-index: 10;
+    text-align: center;
+    border-radius: 15px;
+}
+
+@media only screen and (max-width: 1280px) {
+    section.creators .card-wrapper .card {
+        padding: 40px;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    section.creators .card-wrapper .card {
+        width: 100%;
+        margin: 40px auto;
+        height: auto;
+        padding: 50px 0;
+    }
+}
+
+section.creators .card-wrapper .card h1 {
+    font-size: 20px;
+    font-family: "Minecraftia";
+    text-align: center;
+    margin-top: 35px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #c1c8cb;
+}
+
+@media only screen and (max-width: 1500px) {
+    section.creators .card-wrapper .card h1 {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    section.creators .card-wrapper .card h1 {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    section.creators .card-wrapper .card h1 {
+        font-size: 12px;
+    }
+}
+
+section.creators .card-wrapper .card p,
+section.creators .card-wrapper .card b {
+    font-size: 13px;
+    width: 90%;
+    margin: 0 auto;
+    font-family: "Minecraftia";
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #c1c8cb;
+}
+
+section.creators .card-wrapper .card p.long,
+section.creators .card-wrapper .card b.long {
+    width: 50%;
+}
+
+@media only screen and (max-width: 1080px) {
+    section.creators .card-wrapper .card p.long,
+    section.creators .card-wrapper .card b.long {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    section.creators .card-wrapper .card p,
+    section.creators .card-wrapper .card b {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    section.creators .card-wrapper .card p,
+    section.creators .card-wrapper .card b {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    section.creators .card-wrapper .card p,
+    section.creators .card-wrapper .card b {
+        font-size: 12px;
+    }
+}
+
+section.join {
+    text-align: center;
+    margin-top: 120px;
+}
+
+section.join > h1 {
+    font-size: 22px;
+    font-family: "Minecraftia";
+    text-align: center;
+    margin-bottom: 70px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: #c1c8cb;
+}
+
+section.join .grid {
+    position: relative;
+    width: 1400px;
+    display: -ms-grid;
+    display: grid;
+    z-index: 12;
+    margin: 0 auto;
+    grid-gap: 20px;
+    -ms-grid-columns: (1fr) [13];
+    grid-template-columns: repeat(13, 1fr);
+    -ms-grid-rows: (1fr) [7];
+    grid-template-rows: repeat(7, 1fr);
+}
+
+@media only screen and (max-width: 1500px) {
+    section.join .grid {
+        width: 1200px;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    section.join .grid {
+        width: 1000px;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    section.join .grid {
+        width: 85%;
+        -ms-grid-columns: (1fr) [1];
+        grid-template-columns: repeat(1, 1fr);
+        -ms-grid-rows: unset;
+        grid-template-rows: unset;
+    }
+}
+
+section.join .grid .box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    overflow: hidden;
+    text-align: center;
+}
+
+section.join .grid .box .arrow-wrapper {
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+section.join .grid .box .arrow-wrapper .arrow {
+    width: 150px;
+    height: 150px;
+    background: url("../img/servers/arrow.png") center center no-repeat;
+    background-size: contain;
+}
+
+@media only screen and (max-width: 1080px) {
+    section.join .grid .box .arrow-wrapper .arrow {
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
+}
+
+section.join .grid .box .arrow-wrapper .arrow.deg {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+section.join .grid .box .row-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+section.join .grid .box button {
+    text-shadow: 2px 2px 1px #000;
+    color: #fff;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 10px 30px;
+    background: #34aa2f;
+    border-top: 5px solid #51bb4d;
+    border-left: 5px solid #51bb4d;
+    border-bottom: 5px solid #2b8827;
+    border-right: 5px solid #2b8827;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+@media only screen and (max-width: 1080px) {
+    section.join .grid .box button {
+        padding: 5px 5px;
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    section.join .grid .box button {
+        font-size: 8px;
+        letter-spacing: 2px;
+    }
+}
+
+section.join .grid .box button:hover {
+    background: #202020;
+    border-top: 5px solid #131313;
+    border-left: 5px solid #131313;
+    border-bottom: 5px solid #292929;
+    border-right: 5px solid #292929;
+}
+
+section.join .grid .box h2,
+section.join .grid .box b {
+    font-size: 18px;
+    font-family: "Minecraftia";
+    text-align: center;
+    margin: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #c1c8cb;
+}
+
+@media only screen and (max-width: 1280px) {
+    section.join .grid .box h2,
+    section.join .grid .box b {
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+}
+
+section.join .grid .box span {
+    font-size: 14px;
+    width: 500px;
+    margin: 0 auto;
+    font-family: "Minecraftia";
+    text-align: center;
+    margin-bottom: 70px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #c1c8cb;
+    display: block;
+}
+
+@media only screen and (max-width: 1280px) {
+    section.join .grid .box span {
+        font-size: 10px;
+        width: auto;
+        letter-spacing: 1px;
+    }
+}
+
+section.join .grid .box span.hop {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+section.join .grid .box p {
+    font-size: 15px;
+    width: 100%;
+    margin: 0 auto;
+    font-family: "Minecraftia";
+    letter-spacing: 3px;
+    color: #c1c8cb;
+}
+
+@media only screen and (max-width: 1280px) {
+    section.join .grid .box p {
+        font-size: 11px;
+        letter-spacing: 1px;
+    }
+}
+
+section.join .grid .box p.left {
+    text-align: left;
+}
+
+@media only screen and (max-width: 1080px) {
+    section.join .grid .box {
+        grid-column: unset !important;
+        grid-row: unset !important;
+    }
+}
+
+section.join .grid .box:nth-child(1) {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 7;
+    grid-column: 1/8;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 4;
+    grid-row: 1/5;
+}
+
+section.join .grid .box:nth-child(2) {
+    -ms-grid-column: 8;
+    -ms-grid-column-span: 2;
+    grid-column: 8/10;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+}
+
+section.join .grid .box:nth-child(3) {
+    -ms-grid-column: 10;
+    -ms-grid-column-span: 4;
+    grid-column: 10/14;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    grid-row: 1/3;
+}
+
+section.join .grid .box:nth-child(4) {
+    -ms-grid-column: 10;
+    -ms-grid-column-span: 4;
+    grid-column: 10/14;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2/3;
+}
+
+section.join .grid .box:nth-child(5) {
+    -ms-grid-column: 10;
+    -ms-grid-column-span: 4;
+    grid-column: 10/14;
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 2;
+    grid-row: 3/5;
+}
+
+section.join .grid .box:nth-child(6) {
+    -ms-grid-column: 10;
+    -ms-grid-column-span: 4;
+    grid-column: 10/14;
+    -ms-grid-row: 5;
+    -ms-grid-row-span: 1;
+    grid-row: 5/6;
+}
+
+section.join .grid .box:nth-child(7) {
+    -ms-grid-column: 10;
+    -ms-grid-column-span: 4;
+    grid-column: 10/14;
+    -ms-grid-row: 6;
+    -ms-grid-row-span: 4;
+    grid-row: 6/10;
+}
+
+section.join .grid .box:nth-child(7) p {
+    margin-bottom: 40px;
+}
+
+section.join .grid .box:nth-child(8) {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 9;
+    grid-column: 1/10;
+    -ms-grid-row: 4;
+    -ms-grid-row-span: 4;
+    grid-row: 4/8;
+    height: 100%;
+    width: 100%;
+    background: url("../img/servers/pet.png") center center no-repeat;
+    background-size: contain;
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+footer a {
+    font-size: 14px;
+    font-family: "Minecraftia";
+    display: block;
+    padding: 33px;
+    letter-spacing: 6px;
+    color: #c1c8cb;
+    translate: 0.5s;
+}
+
+footer a:hover {
+    color: #51bb4d !important;
+}
+
+footer span {
+    display: block;
+    font-size: 12px;
+    font-family: "Minecraftia";
+    margin-top: 33px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #c1c8cb;
+    translate: 0.5s;
+}
+footer b {
+    display: block;
+    font-size: 15px;
+    font-family: "Minecraftia";
+    margin-bottom: 7px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #c1c8cb;
+    translate: 0.5s;
+}
+
+.col.col-100 {
+    width: 100% !important;
+}
+
+.col.col-50 {
+    width: 50% !important;
+}
+
+.col.col-25 {
+    width: 25% !important;
+}
+/*# sourceMappingURL=style.css.map */
+
+section.helpdesk {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+section.helpdesk > h1 {
+    font-size: 22px;
+    font-family: "Minecraftia";
+    text-align: center;
+    margin-bottom: 70px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: #c1c8cb;
+}
+
+section.helpdesk .row-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+section.helpdesk div.hatoska {
+    height: 500px;
+    width: 500px;
+    background: url("../img/servers/6oska_telozik.png") center center/contain no-repeat;
+    margin-right: -119px;
+}
+
+section.helpdesk div.text-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+section.helpdesk div.text-wrapper span {
+    font-family: "Minecraftia";
+    display: flex;
+    color: #c1c8cb;
+    margin: 5px auto;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 1080px) {
+    section.helpdesk .row-wrapper {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        margin: auto;
+        width: 100% !important;
+    }
+
+    section.helpdesk .col.col-50 {
+        display: flex;
+        justify-content: center !important;
+        align-items: center !important;
+        width: 100% !important;
+    }
+
+    section.helpdesk div.hatoska {
+        height: 500px;
+        width: 100%;
+        background: url("../img/servers/6oska_telozik.png") center center/contain no-repeat;
+        margin-right: 0 !important;
+    }
+
+    footer a img {
+        width: 100%;
+    }
+}
+
+
+.last-align-items-center {
+  width: 200px;
+}
+.last-align-items-center:hover {
+}
+.last-align-items-center .img-top {
+  border-radius: 10px;
+}
+
+.donate-img {
+  width: 45px;
+  height: 38px;
+  margin: -25px 100px -15px auto;
+}
+.donate-img img {
+  width: auto;
+  height: 38px;
+}
+
+.card-body{
+	-ms-flex:1 1 auto;
+	flex:1 1 auto;
+	padding:1.25rem
+}
+
+.card-title{
+	margin-bottom:.75rem
+}
+
+.card-text:last-child{margin-bottom:0}

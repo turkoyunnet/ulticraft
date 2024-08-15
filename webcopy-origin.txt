@@ -1,0 +1,356 @@
+Uri: https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js
+File Name: C:\Downloaded Web Sites\kafalarmc.com\ajax\libs\jquery\3.6.0\jquery.min.js
+Content Type: text/javascript
+
+Uri: https://cdn.jsdelivr.net/gh/leonardosnt/mc-player-counter/dist/mc-player-counter.min.js
+File Name: C:\Downloaded Web Sites\kafalarmc.com\gh\leonardosnt\mc-player-counter\dist\mc-player-counter.min.js
+Content Type: application/javascript
+
+Uri: https://cdn.jsdelivr.net/npm/jquery.marquee@1.5.0/jquery.marquee.min.js
+File Name: C:\Downloaded Web Sites\kafalarmc.com\npm\jquery.marquee@1.5.0\jquery.marquee.min.js
+Content Type: application/javascript
+
+Uri: https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js
+File Name: C:\Downloaded Web Sites\kafalarmc.com\npm\popper.js@1.16.1\dist\umd\popper.min.js
+Content Type: application/javascript
+
+Uri: https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/js/select2.min.js
+File Name: C:\Downloaded Web Sites\kafalarmc.com\npm\select2@4.1.0-beta.1\dist\js\select2.min.js
+Content Type: application/javascript
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js
+File Name: C:\Downloaded Web Sites\kafalarmc.com\ajax\libs\font-awesome\5.14.0\js\all.min.js
+Content Type: application/javascript
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/8.11.8/sweetalert2.min.js
+File Name: C:\Downloaded Web Sites\kafalarmc.com\ajax\libs\limonte-sweetalert2\8.11.8\sweetalert2.min.js
+Content Type: application/javascript
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.bundle.min.js
+File Name: C:\Downloaded Web Sites\kafalarmc.com\ajax\libs\twitter-bootstrap\4.5.2\js\bootstrap.bundle.min.js
+Content Type: application/javascript
+
+Uri: https://code.jquery.com/jquery-3.5.1.slim.min.js
+File Name: C:\Downloaded Web Sites\kafalarmc.com\jquery-3.5.1.slim.min.js
+Content Type: application/javascript
+
+Uri: https://code.jquery.com/jquery-3.6.0.min.js
+File Name: C:\Downloaded Web Sites\kafalarmc.com\jquery-3.6.0.min.js
+Content Type: application/javascript
+
+Uri: https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap
+File Name: C:\Downloaded Web Sites\kafalarmc.com\css2-1
+Content Type: text/css
+
+Uri: https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap
+File Name: C:\Downloaded Web Sites\kafalarmc.com\css2
+Content Type: text/css
+
+Uri: https://fonts.gstatic.com/s/inter/v18/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuBWYMZg.ttf
+File Name: C:\Downloaded Web Sites\kafalarmc.com\s\inter\v18\UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuBWYMZg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v18/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuDyfMZg.ttf
+File Name: C:\Downloaded Web Sites\kafalarmc.com\s\inter\v18\UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuDyfMZg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v18/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuDyYMZg.ttf
+File Name: C:\Downloaded Web Sites\kafalarmc.com\s\inter\v18\UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuDyYMZg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v18/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYMZg.ttf
+File Name: C:\Downloaded Web Sites\kafalarmc.com\s\inter\v18\UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYMZg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v18/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuGKYMZg.ttf
+File Name: C:\Downloaded Web Sites\kafalarmc.com\s\inter\v18\UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuGKYMZg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v18/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuI6fMZg.ttf
+File Name: C:\Downloaded Web Sites\kafalarmc.com\s\inter\v18\UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuI6fMZg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v18/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuLyeMZg.ttf
+File Name: C:\Downloaded Web Sites\kafalarmc.com\s\inter\v18\UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuLyeMZg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v18/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuLyfMZg.ttf
+File Name: C:\Downloaded Web Sites\kafalarmc.com\s\inter\v18\UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuLyfMZg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v18/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuOKfMZg.ttf
+File Name: C:\Downloaded Web Sites\kafalarmc.com\s\inter\v18\UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuOKfMZg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v32/KFOiCnqEu92Fr1Mu51QrIzc.ttf
+File Name: C:\Downloaded Web Sites\kafalarmc.com\s\roboto\v32\KFOiCnqEu92Fr1Mu51QrIzc.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v32/KFOjCnqEu92Fr1Mu51S7ABc9.ttf
+File Name: C:\Downloaded Web Sites\kafalarmc.com\s\roboto\v32\KFOjCnqEu92Fr1Mu51S7ABc9.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v32/KFOjCnqEu92Fr1Mu51TjARc9.ttf
+File Name: C:\Downloaded Web Sites\kafalarmc.com\s\roboto\v32\KFOjCnqEu92Fr1Mu51TjARc9.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v32/KFOjCnqEu92Fr1Mu51TLBBc9.ttf
+File Name: C:\Downloaded Web Sites\kafalarmc.com\s\roboto\v32\KFOjCnqEu92Fr1Mu51TLBBc9.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v32/KFOjCnqEu92Fr1Mu51TzBhc9.ttf
+File Name: C:\Downloaded Web Sites\kafalarmc.com\s\roboto\v32\KFOjCnqEu92Fr1Mu51TzBhc9.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v32/KFOkCnqEu92Fr1MmgWxP.ttf
+File Name: C:\Downloaded Web Sites\kafalarmc.com\s\roboto\v32\KFOkCnqEu92Fr1MmgWxP.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v32/KFOkCnqEu92Fr1Mu52xP.ttf
+File Name: C:\Downloaded Web Sites\kafalarmc.com\s\roboto\v32\KFOkCnqEu92Fr1Mu52xP.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmEU9vAw.ttf
+File Name: C:\Downloaded Web Sites\kafalarmc.com\s\roboto\v32\KFOlCnqEu92Fr1MmEU9vAw.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmSU5vAw.ttf
+File Name: C:\Downloaded Web Sites\kafalarmc.com\s\roboto\v32\KFOlCnqEu92Fr1MmSU5vAw.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmWUlvAw.ttf
+File Name: C:\Downloaded Web Sites\kafalarmc.com\s\roboto\v32\KFOlCnqEu92Fr1MmWUlvAw.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmYUtvAw.ttf
+File Name: C:\Downloaded Web Sites\kafalarmc.com\s\roboto\v32\KFOlCnqEu92Fr1MmYUtvAw.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v32/KFOmCnqEu92Fr1Me5Q.ttf
+File Name: C:\Downloaded Web Sites\kafalarmc.com\s\roboto\v32\KFOmCnqEu92Fr1Me5Q.ttf
+Content Type: font/ttf
+
+Uri: https://kafalarmc.com/
+File Name: C:\Downloaded Web Sites\kafalarmc.com\index.htm
+Content Type: text/html
+
+Uri: https://kafalarmc.com/assets/uploads/images/landing/logo/b5Y2V1a4Y6Q6.png
+File Name: C:\Downloaded Web Sites\kafalarmc.com\assets\uploads\images\landing\logo\b5Y2V1a4Y6Q6.png
+Content Type: image/png
+
+Uri: https://kafalarmc.com/LOS/img/active.png
+File Name: C:\Downloaded Web Sites\kafalarmc.com\LOS\img\active.png
+Content Type: image/png
+
+Uri: https://kafalarmc.com/magaza/survival/1
+File Name: C:\Downloaded Web Sites\kafalarmc.com\magaza\survival\1.html
+Content Type: text/html
+
+Uri: https://kafalarmc.com/main/includes/packages/layouts/shopping-cart/js/edit.js?v=6160
+File Name: C:\Downloaded Web Sites\kafalarmc.com\main\includes\packages\layouts\shopping-cart\js\edit.js
+Content Type: text/javascript
+
+Uri: https://kafalarmc.com/main/includes/packages/layouts/store/css/themes/sitary/style.css?v=6160
+File Name: C:\Downloaded Web Sites\kafalarmc.com\main\includes\packages\layouts\store\css\themes\sitary\style.css
+Content Type: text/css
+
+Uri: https://kafalarmc.com/main/includes/packages/layouts/store/js/dark-edit.js?v=6160
+File Name: C:\Downloaded Web Sites\kafalarmc.com\main\includes\packages\layouts\store\js\dark-edit.js
+Content Type: text/javascript
+
+Uri: https://kafalarmc.com/main/themes/dark/theme/assets/css/fire.css
+File Name: C:\Downloaded Web Sites\kafalarmc.com\main\themes\dark\theme\assets\css\fire.css
+Content Type: text/css
+
+Uri: https://kafalarmc.com/main/themes/dark/theme/assets/css/style.css
+File Name: C:\Downloaded Web Sites\kafalarmc.com\main\themes\dark\theme\assets\css\style.css
+Content Type: text/css
+
+Uri: https://kafalarmc.com/main/themes/dark/theme/assets/css/stylec134.css?v=0.2.1
+File Name: C:\Downloaded Web Sites\kafalarmc.com\main\themes\dark\theme\assets\css\stylec134.css
+Content Type: text/css
+
+Uri: https://kafalarmc.com/main/themes/dark/theme/assets/font/minecraft-font.ttf
+File Name: C:\Downloaded Web Sites\kafalarmc.com\main\themes\dark\theme\assets\font\minecraft-font.ttf
+Content Type: font/ttf
+
+Uri: https://kafalarmc.com/main/themes/dark/theme/assets/font/montserrat.ttf
+File Name: C:\Downloaded Web Sites\kafalarmc.com\main\themes\dark\theme\assets\font\montserrat.ttf
+Content Type: font/ttf
+
+Uri: https://kafalarmc.com/main/themes/dark/theme/assets/img/alert-warning.png
+File Name: C:\Downloaded Web Sites\kafalarmc.com\main\themes\dark\theme\assets\img\alert-warning.png
+Content Type: image/png
+
+Uri: https://kafalarmc.com/main/themes/dark/theme/assets/img/bg-landing.png
+File Name: C:\Downloaded Web Sites\kafalarmc.com\main\themes\dark\theme\assets\img\bg-landing.png
+Content Type: image/png
+
+Uri: https://kafalarmc.com/main/themes/dark/theme/assets/img/coin-flip-59.gif
+File Name: C:\Downloaded Web Sites\kafalarmc.com\main\themes\dark\theme\assets\img\coin-flip-59.gif
+Content Type: image/gif
+
+Uri: https://kafalarmc.com/main/themes/dark/theme/assets/img/logonobg.png
+File Name: C:\Downloaded Web Sites\kafalarmc.com\main\themes\dark\theme\assets\img\logonobg.png
+Content Type: image/png
+
+Uri: https://kafalarmc.com/main/themes/dark/theme/assets/img/navbar/book.png
+File Name: C:\Downloaded Web Sites\kafalarmc.com\main\themes\dark\theme\assets\img\navbar\book.png
+Content Type: image/png
+
+Uri: https://kafalarmc.com/main/themes/dark/theme/assets/img/navbar/campfire.png
+File Name: C:\Downloaded Web Sites\kafalarmc.com\main\themes\dark\theme\assets\img\navbar\campfire.png
+Content Type: image/png
+
+Uri: https://kafalarmc.com/main/themes/dark/theme/assets/img/navbar/compass.png
+File Name: C:\Downloaded Web Sites\kafalarmc.com\main\themes\dark\theme\assets\img\navbar\compass.png
+Content Type: image/png
+
+Uri: https://kafalarmc.com/main/themes/dark/theme/assets/img/navbar/discord.png
+File Name: C:\Downloaded Web Sites\kafalarmc.com\main\themes\dark\theme\assets\img\navbar\discord.png
+Content Type: image/png
+
+Uri: https://kafalarmc.com/main/themes/dark/theme/assets/img/navbar/name_tag.png
+File Name: C:\Downloaded Web Sites\kafalarmc.com\main\themes\dark\theme\assets\img\navbar\name_tag.png
+Content Type: image/png
+
+Uri: https://kafalarmc.com/main/themes/dark/theme/assets/img/preloader.gif
+File Name: C:\Downloaded Web Sites\kafalarmc.com\main\themes\dark\theme\assets\img\preloader.gif
+Content Type: image/gif
+
+Uri: https://kafalarmc.com/main/themes/dark/theme/assets/img/servers/6oska_telozik.png
+File Name: C:\Downloaded Web Sites\kafalarmc.com\main\themes\dark\theme\assets\img\servers\6oska_telozik.png
+Content Type: image/png
+
+Uri: https://kafalarmc.com/main/themes/dark/theme/assets/img/servers/arrow.png
+File Name: C:\Downloaded Web Sites\kafalarmc.com\main\themes\dark\theme\assets\img\servers\arrow.png
+Content Type: image/png
+
+Uri: https://kafalarmc.com/main/themes/dark/theme/assets/img/servers/close.png
+File Name: C:\Downloaded Web Sites\kafalarmc.com\main\themes\dark\theme\assets\img\servers\close.png
+Content Type: image/png
+
+Uri: https://kafalarmc.com/main/themes/dark/theme/assets/img/servers/dragon.png
+File Name: C:\Downloaded Web Sites\kafalarmc.com\main\themes\dark\theme\assets\img\servers\dragon.png
+Content Type: image/png
+
+Uri: https://kafalarmc.com/main/themes/dark/theme/assets/img/servers/end-effect.png
+File Name: C:\Downloaded Web Sites\kafalarmc.com\main\themes\dark\theme\assets\img\servers\end-effect.png
+Content Type: image/png
+
+Uri: https://kafalarmc.com/main/themes/dark/theme/assets/img/servers/end.png
+File Name: C:\Downloaded Web Sites\kafalarmc.com\main\themes\dark\theme\assets\img\servers\end.png
+Content Type: image/png
+
+Uri: https://kafalarmc.com/main/themes/dark/theme/assets/img/servers/fox.png
+File Name: C:\Downloaded Web Sites\kafalarmc.com\main\themes\dark\theme\assets\img\servers\fox.png
+Content Type: image/png
+
+Uri: https://kafalarmc.com/main/themes/dark/theme/assets/img/servers/knight.png
+File Name: C:\Downloaded Web Sites\kafalarmc.com\main\themes\dark\theme\assets\img\servers\knight.png
+Content Type: image/png
+
+Uri: https://kafalarmc.com/main/themes/dark/theme/assets/img/servers/obsidian.png
+File Name: C:\Downloaded Web Sites\kafalarmc.com\main\themes\dark\theme\assets\img\servers\obsidian.png
+Content Type: image/png
+
+Uri: https://kafalarmc.com/main/themes/dark/theme/assets/img/servers/pet.png
+File Name: C:\Downloaded Web Sites\kafalarmc.com\main\themes\dark\theme\assets\img\servers\pet.png
+Content Type: image/png
+
+Uri: https://kafalarmc.com/main/themes/dark/theme/assets/img/servers/phantom.png
+File Name: C:\Downloaded Web Sites\kafalarmc.com\main\themes\dark\theme\assets\img\servers\phantom.png
+Content Type: image/png
+
+Uri: https://kafalarmc.com/main/themes/dark/theme/assets/img/servers/stone.png
+File Name: C:\Downloaded Web Sites\kafalarmc.com\main\themes\dark\theme\assets\img\servers\stone.png
+Content Type: image/png
+
+Uri: https://kafalarmc.com/main/themes/dark/theme/assets/img/servers/teliakciok.png
+File Name: C:\Downloaded Web Sites\kafalarmc.com\main\themes\dark\theme\assets\img\servers\teliakciok.png
+Content Type: image/png
+
+Uri: https://kafalarmc.com/main/themes/dark/theme/assets/img/servers/wizard.png
+File Name: C:\Downloaded Web Sites\kafalarmc.com\main\themes\dark\theme\assets\img\servers\wizard.png
+Content Type: image/png
+
+Uri: https://kafalarmc.com/main/themes/dark/theme/assets/js/jquery-3.5.1.min.js
+File Name: C:\Downloaded Web Sites\kafalarmc.com\main\themes\dark\theme\assets\js\jquery-3.5.1.min.js
+Content Type: text/javascript
+
+Uri: https://kafalarmc.com/main/themes/dark/theme/assets/js/jquery-ui.min.js
+File Name: C:\Downloaded Web Sites\kafalarmc.com\main\themes\dark\theme\assets\js\jquery-ui.min.js
+Content Type: text/javascript
+
+Uri: https://kafalarmc.com/main/themes/dark/theme/assets/js/main6a79.js?ver=0.5
+File Name: C:\Downloaded Web Sites\kafalarmc.com\main\themes\dark\theme\assets\js\main6a79.js
+Content Type: text/javascript
+
+Uri: https://kafalarmc.com/main/themes/dark/theme/assets/js/wk-kar-efekt.js
+File Name: C:\Downloaded Web Sites\kafalarmc.com\main\themes\dark\theme\assets\js\wk-kar-efekt.js
+Content Type: text/javascript
+
+Uri: https://kafalarmc.com/main/themes/dark/theme/assets/particles.js/2.0.0/particles.min.js
+File Name: C:\Downloaded Web Sites\kafalarmc.com\main\themes\dark\theme\assets\particles.js\2.0.0\particles.min.js
+Content Type: text/javascript
+
+Uri: https://kafalarmc.com/main/themes/dark/theme/assets/products/enderman_bg.png
+File Name: C:\Downloaded Web Sites\kafalarmc.com\main\themes\dark\theme\assets\products\enderman_bg.png
+Content Type: image/png
+
+Uri: https://kafalarmc.com/main/themes/dark/theme/assets/products/iron golem_bg.png
+File Name: C:\Downloaded Web Sites\kafalarmc.com\main\themes\dark\theme\assets\products\iron golem_bg.png
+Content Type: image/png
+
+Uri: https://kafalarmc.com/main/themes/dark/theme/assets/themes/update/js/fire.html
+File Name: C:\Downloaded Web Sites\kafalarmc.com\main\themes\dark\theme\assets\themes\update\js\fire.html
+Content Type: text/html
+
+Uri: https://kafalarmc.com/main/themes/dark/theme/js/edit.js?v=6160
+File Name: C:\Downloaded Web Sites\kafalarmc.com\main\themes\dark\theme\js\edit.js
+Content Type: text/javascript
+
+Uri: https://kafalarmc.com/main/themes/dark/theme/js/theme/autosize.min.js?v=6160
+File Name: C:\Downloaded Web Sites\kafalarmc.com\main\themes\dark\theme\js\theme\autosize.min.js
+Content Type: text/javascript
+
+Uri: https://kafalarmc.com/main/themes/dark/theme/js/theme/clipboard.min.js?v=6160
+File Name: C:\Downloaded Web Sites\kafalarmc.com\main\themes\dark\theme\js\theme\clipboard.min.js
+Content Type: text/javascript
+
+Uri: https://kafalarmc.com/main/themes/dark/theme/js/theme/functions.js?v=6160
+File Name: C:\Downloaded Web Sites\kafalarmc.com\main\themes\dark\theme\js\theme\functions.js
+Content Type: text/javascript
+
+Uri: https://kafalarmc.com/main/themes/dark/theme/js/theme/in-view.min.js?v=6160
+File Name: C:\Downloaded Web Sites\kafalarmc.com\main\themes\dark\theme\js\theme\in-view.min.js
+Content Type: text/javascript
+
+Uri: https://minotar.net/avatar/cio01/75.png
+File Name: C:\Downloaded Web Sites\kafalarmc.com\avatar\cio01\75.png
+Content Type: image/png
+
+Uri: https://minotar.net/avatar/denizarday/75.png
+File Name: C:\Downloaded Web Sites\kafalarmc.com\avatar\denizarday\75.png
+Content Type: image/png
+
+Uri: https://minotar.net/avatar/muhok/75.png
+File Name: C:\Downloaded Web Sites\kafalarmc.com\avatar\muhok\75.png
+Content Type: image/png
+
+Uri: https://minotar.net/avatar/soldier_17/75.png
+File Name: C:\Downloaded Web Sites\kafalarmc.com\avatar\soldier_17\75.png
+Content Type: image/png
+
+Uri: https://minotar.net/avatar/theal3mdar/75.png
+File Name: C:\Downloaded Web Sites\kafalarmc.com\avatar\theal3mdar\75.png
+Content Type: image/png
+
+Uri: https://minotar.net/avatar/UNUTULMAZTAYFA/75.png
+File Name: C:\Downloaded Web Sites\kafalarmc.com\avatar\UNUTULMAZTAYFA\75.png
+Content Type: image/png
+
+Uri: https://unpkg.com/swiper@11.1.9/swiper-bundle.min.js
+File Name: C:\Downloaded Web Sites\kafalarmc.com\swiper@11.1.9\swiper-bundle.min.js
+Content Type: application/javascript
+

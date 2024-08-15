@@ -1,0 +1,83 @@
+.product-discount-sticker {
+  position: relative;
+  z-index: 1;
+  font-weight: bold;
+  float: left;
+  top: .5rem;
+  left: .5rem;
+  background: #293249;
+  color: #fff;
+  width: 36px;
+  height: 36px;
+  border-radius: 100%;
+  justify-content: center;
+  text-align: center;
+}
+.discount-icon {
+  margin-top: .65rem;
+  fill: #4ff461;
+  width: 16px;
+  height: 16px;
+}
+.store-discount-card {
+  font-family: Rajdhani, sans-serif;
+  font-weight: 650;
+  border-radius: 10px;
+  font-size: 0.80rem;
+  padding: 1.5rem 2.5rem;
+  letter-spacing: calc(1px / 5);
+  color: white;
+  position: relative;
+  overflow: hidden;
+  margin: 1rem 0;
+  background: #09a9af;
+}
+.store-discount-card::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 15px;
+  height: calc(100% - 15px * 1 - 7.5px);
+  background-color: #abe6e8;
+  box-shadow: 5px 0 30px 5px #abe6e8;
+  z-index: 3;
+  border-radius: 0 7px 7px 0;
+  background-size: 600%;
+}
+.store-discount-card::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  width: 15px;
+  height: calc(100% - 15px * 1 - 7.5px);
+  background-color: #abe6e8;
+  box-shadow: 5px 0 30px 5px #abe6e8;
+  z-index: 3;
+  border-radius: 7px 0 0 7px;
+  background-size: 600%;
+}
+.product-count-sticker {
+  font-weight: bold;
+  float: right;
+  top: .5rem;
+  right: .5rem;
+  background: #293249;
+  color: #fff;
+  width: auto;
+  height: 36px;
+  border-radius: 2.5rem;
+}
+.product-count-sticker-text {
+  font-size: 1rem;
+  margin: .6rem .7rem .5rem .7rem;
+}
+.product-count-sticker-text-not {
+  color: #b1fcff;
+}
+.product-count-sticker-text-count {
+  color: #7fde4b;
+}
